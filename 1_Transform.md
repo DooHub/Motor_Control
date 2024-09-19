@@ -9,4 +9,4 @@
 
 # 3. Clark Transform
 ### 3상에 흐르는 전류 벡터를 Alpha와 Belta의 직교 좌표로 변환 한다.
-### 1) 
+### 1) $i_\alpha = i_ucos(0^{\circ})+i_vcos(120^{\circ})+i_wcos(-120^{\circ})=i_u+\frac{-1}{2}i_v+\frac{-1}{2}i_w=i_u+\frac{-1}{2}(i_v+i_w)$
