@@ -9,3 +9,4 @@
 
 # 3. Clark Transform
 ### 3상에 흐르는 전류 벡터를 Alpha와 Belta의 직교 좌표로 변환 한다.
+### 1) 
