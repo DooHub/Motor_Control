@@ -1,4 +1,4 @@
-<a href ="https://zin9.tistory.com/16">"참고사이트</a>
+<a href ="https://zin9.tistory.com/16">참고사이트</a>
 # 1. Transform
 --> BLDC 3상 모터를 제어하기 위해 알아야한 기본 배경 지식으로 Park와 Clark Transform에 대해서 알아 본다.  
 --> 3상 모터는 AC로 제어해야 하기 때문에 시변을 고려할 경우 복잡하다. Tranform을 통해 AC제어를 DC로 제어 할 수 있다.  
@@ -24,7 +24,6 @@
 ### $i_\beta = \frac{\sqrt{3}}{2}(i_v-i_w)=\frac{\sqrt{3}}{2}(2i_v+i_u)$  
 ### 위 내용을 행렬로 표시하면  
 
-
 $$\begin{bmatrix}
 i_\alpha \\
 i_\beta
@@ -32,6 +31,22 @@ i_\beta
 =\begin{bmatrix}
 \frac{3}{2} & 0 & 0 \\
 \frac{\sqrt{3}}{2}&\frac{2\sqrt{3}}{2}  & 0
+\end{bmatrix}
+\begin{bmatrix}
+i_u \\
+i_v \\
+i_w
+\end{bmatrix}$$
+
+### Alpha가 U상과 같은 크기를 가지게 하기 위해 $\frac{2}{3}$을 곱해서 위식을 다시 정리하면  
+
+$$\begin{bmatrix}
+i_\alpha \\
+i_\beta
+\end{bmatrix}
+=\begin{bmatrix}
+1 & 0 & 0 \\
+\frac{1}{\sqrt{3}}&\frac{2}{\sqrt{3}}  & 0
 \end{bmatrix}
 \begin{bmatrix}
 i_u \\
