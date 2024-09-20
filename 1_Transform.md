@@ -108,3 +108,6 @@ i_u \\
 i_v \\
 i_w
 \end{bmatrix}$$
+### id와 iq는 iu와 iv로 정리 할 수 있다.
+### $\bullet i_d= (cos\theta+\frac{sin\theta}{\sqrt{3}})i_u+\frac{2sin\theta}{\sqrt{3}}iv$
+### $\bullet i_q= (-sin\theta+\frac{cos\theta}{\sqrt{3}})i_u+\frac{2cos\theta}{\sqrt{3}}iv$
