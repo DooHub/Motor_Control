@@ -1,3 +1,4 @@
+<a href ="https://zin9.tistory.com/16">"참고사이트</a>
 # 1. Transform
 --> BLDC 3상 모터를 제어하기 위해 알아야한 기본 배경 지식으로 Park와 Clark Transform에 대해서 알아 본다.  
 --> 3상 모터는 AC로 제어해야 하기 때문에 시변을 고려할 경우 복잡하다. Tranform을 통해 AC제어를 DC로 제어 할 수 있다.  
