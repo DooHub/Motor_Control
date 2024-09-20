@@ -111,3 +111,5 @@ i_w
 ### id와 iq는 iu와 iv로 정리 할 수 있다.
 ### $\bullet i_d= (cos\theta+\frac{sin\theta}{\sqrt{3}})i_u+\frac{2sin\theta}{\sqrt{3}}iv$
 ### $\bullet i_q= (-sin\theta+\frac{cos\theta}{\sqrt{3}})i_u+\frac{2cos\theta}{\sqrt{3}}iv$
+----
+### Alpha와 Beta로 변환 시 에너지 보존 법칙을 위배 되는 현상이 있기 때문에 이부분에 대한 보안이 필요 하다.
