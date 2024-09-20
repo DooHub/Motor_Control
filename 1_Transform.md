@@ -56,5 +56,9 @@ i_w
 
 # 4. Park Transform
 ### Alpha와 Beta는 여전히 상수가 아닌 Phase전류 변환에 따라 값이 바뀐다. 따라서 고정된 축을 만들고 이를 회전하는 방법을 적용 할 필요가 있다.
+### d와 q축을 만들고 축이 Alpha축을 중심으로 시계 반대 방향으로 회전 한다고 할 때 d와 q를 구해 보자
+## Alpha와 d축 사이의 각 Theta는 각속도를 나타낸다.
+
+<img src="https://github.com/user-attachments/assets/eed56246-489b-46c7-8372-3983f8a14962">
 
 
