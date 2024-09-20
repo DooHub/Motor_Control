@@ -9,6 +9,10 @@
 
 # 3. Clark Transform
 ### 3상에 흐르는 전류 벡터를 Alpha와 Belta의 직교 좌표로 변환 한다.
+### U상을 기준으로 V와 W는 120도의 위상차를 가지고 있다.  
+### Alpha좌표는 U상과 동기화 되어 있는 상태로 Transformd을 진행 한다.
+<img src="https://github.com/user-attachments/assets/92082801-c3d8-4632-bf23-e9c9066b46c7">  
+
 ### 1) $i_\alpha = i_ucos(0^{\circ})+i_vcos(120^{\circ})+i_wcos(-120^{\circ})=i_u+\frac{-1}{2}i_v+\frac{-1}{2}i_w=i_u+\frac{-1}{2}(i_v+i_w)$
 ### 2) $i_\beta = i_usin(0^{\circ})+i_vsin(120^{\circ})+i_wsin(-120^{\circ})=i_u\times0+\frac{\sqrt{3}}{2}i_v+\frac{-\sqrt{3}}{2}i_w=\frac{\sqrt{3}}{2}(i_v-i_w)$
 ### 3) $i_{0} = i_u+i_v+i_w=0$
