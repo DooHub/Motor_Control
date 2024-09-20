@@ -8,7 +8,7 @@
 ### 1) 3상 모터의 구조 : Y 결선 구조로 되어 있고 각 상을 U, V, W 혹은 a, b, c라고 한다.
 ### 2) KCL 법칙 : Y결선에 구조로 들어온 전류와 나간 전류의 합은 '0'이 되어야 한다.
 
-# 3. Clark Transform
+# 3. Clarke Transform
 ### 3상에 흐르는 전류 벡터를 Alpha와 Belta의 직교 좌표로 변환 한다.
 ### U상을 기준으로 V와 W는 120도의 위상차를 가지고 있다.  
 ### Alpha좌표는 U상과 동기화 되어 있는 상태로 Transformd을 진행 한다.
@@ -53,3 +53,8 @@ i_u \\
 i_v \\
 i_w
 \end{bmatrix}$$
+
+# 4. Park Transform
+### Alpha와 Beta는 여전히 상수가 아닌 Phase전류 변환에 따라 값이 바뀐다. 따라서 고정된 축을 만들고 이를 회전하는 방법을 적용 할 필요가 있다.
+
+
