@@ -78,3 +78,33 @@ cos\theta & sin\theta \\
 i_\alpha \\
 i_\beta
 \end{bmatrix}$$
+
+# 5. 최종정리
+### Clarke 와 Park Transform을 정리하여 표현하면 다음과 같다.  
+
+$$\begin{bmatrix}
+i_d \\
+i_q
+\end{bmatrix}=
+\begin{bmatrix}
+cos\theta & sin\theta \\
+-sin\theta & cos\theta 
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 & 0 \\
+\frac{1}{\sqrt{3}} & \frac{2}{\sqrt{3}} & 0
+\end{bmatrix}
+\begin{bmatrix}
+i_u \\
+i_v \\
+i_w
+\end{bmatrix}=
+\begin{bmatrix}
+ cos\theta+\frac{sin\theta}{\sqrt{3}}& \frac{2sin\theta}{\sqrt{3}} & 0 \\
+ -sin\theta+\frac{cos\theta}{\sqrt{3}}&\frac{2cos\theta}{\sqrt{3}}  & 0 
+\end{bmatrix}
+\begin{bmatrix}
+i_u \\
+i_v \\
+i_w
+\end{bmatrix}$$
