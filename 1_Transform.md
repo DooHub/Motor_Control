@@ -16,3 +16,24 @@
 ### 1) $i_\alpha = i_ucos(0^{\circ})+i_vcos(120^{\circ})+i_wcos(-120^{\circ})=i_u+\frac{-1}{2}i_v+\frac{-1}{2}i_w=i_u+\frac{-1}{2}(i_v+i_w)$
 ### 2) $i_\beta = i_usin(0^{\circ})+i_vsin(120^{\circ})+i_wsin(-120^{\circ})=i_u\times0+\frac{\sqrt{3}}{2}i_v+\frac{-\sqrt{3}}{2}i_w=\frac{\sqrt{3}}{2}(i_v-i_w)$
 ### 3) $i_{0} = i_u+i_v+i_w=0$
+
+---
+### 3)의 식을 1)과 2)적용하여 다음과 같이 간단히 식을 정리 할 수 있다.
+### $i_\alpha =i_u+\frac{-1}{2}(i_v+i_w)=\frac{3}{2}i_u$  
+### $i_\beta = \frac{\sqrt{3}}{2}(i_v-i_w)=\frac{\sqrt{3}}{2}(2i_v+i_u)$  
+### 위 내용을 행렬로 표시하면  
+
+
+$$\begin{bmatrix}
+i_\alpha \\
+i_\beta
+\end{bmatrix}
+=\begin{bmatrix}
+\frac{3}{2} & 0 & 0 \\
+\frac{\sqrt{3}}{2}&\frac{2\sqrt{3}}{2}  & 0
+\end{bmatrix}
+\begin{bmatrix}
+i_u \\
+i_v \\
+i_w
+\end{bmatrix}$$
