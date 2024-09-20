@@ -61,4 +61,20 @@ i_w
 
 <img src="https://github.com/user-attachments/assets/eed56246-489b-46c7-8372-3983f8a14962">
 
+### 1) $i_d=i_\alpha\times cos\theta + i_\beta \times sin\theta$
+### 2) $i_q=i_\alpha\times -cos(\frac{\pi}{2}-\theta) + i_\beta \times sin(\frac{\pi}{2}-\theta)=i_\alpha\times -sin\theta + i_\beta \times cos\theta$
 
+### 상기 내용을 Matrix로 표현하면 다음과 같다.  
+
+$$\begin{bmatrix}
+i_d \\
+i_q
+\end{bmatrix}
+=\begin{bmatrix}
+cos\theta & sin\theta \\
+-sin\theta & cos\theta 
+\end{bmatrix}
+\begin{bmatrix}
+i_\alpha \\
+i_\beta
+\end{bmatrix}$$
